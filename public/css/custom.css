@@ -1,0 +1,20 @@
+ul.languages li a{
+	color: silver;
+}
+
+ul.languages li a:hover, ul.languages li a.active{
+	color: #1B8EF0;
+	text-decoration: none;
+}
+
+
+@media (min-width: 992px) {
+	ul.languages{
+		margin-left: 100px;
+	}
+
+	ul.languages li{
+		margin-right: 10px;
+	}	
+	
+}

@@ -1,0 +1,2 @@
+//stop propagation for any enter keydown on input with class name "tags-input-text" to avoid creation of tags
+window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.className=='tags-input-text'){e.preventDefault();e.stopPropagation();return false;}}},true);

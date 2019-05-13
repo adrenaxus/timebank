@@ -1,0 +1,26 @@
+.tags-input-suggestions{
+	display: block !important;
+}
+
+.tags-input-suggestions li{
+	display: inline-block;
+}
+
+.credit{
+	background-color: white; 
+	color: black; 
+	border: 1px solid black; 
+	padding: 0px 10px; 
+	border-radius: 5px; 
+	display: inline-block; 
+	height: 32px; 
+	line-height: 32px; 
+	font-size: 15px; 
+	text-align: center; 
+	margin-right: 15px;
+background-color: lightgreen;	
+}
+
+.help-text.error-text{
+	display: none;
+}
