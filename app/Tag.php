@@ -20,6 +20,21 @@ class Tag extends \Spatie\Tags\Tag
 			->morphToMany(self::getTagClassName(), 'taggable', 'taggables', null, 'tag_id')
 			->orderBy('order_column');
 	}	
+    
+    
+    /*
+    public static function findFromString(string $name, string $type = null, string $locale = null)
+    {
+        $locale = $locale ?? app()->getLocale();
+
+        return static::query()
+            ->where(\DB::raw( "json_extract(name, '$." . $locale . "')" ), '=', $name)
+            ->where('type', $type)
+            ->first();
+    } 
+    */   
+    
+    
 	
 	
 	/**

@@ -33,7 +33,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
 		
 		//custom style for backend
 		Nova::style('novaCustom', public_path('css/novaCustom.css'));
-		Nova::script('novaCustom', 'http://68.183.71.90/js/novaCustom.js'); //needed to avoid creation of tags and disabling enter key on tag inputs
+		Nova::script('novaCustom', 'https://www.bancadltemp.com/js/novaCustom.js'); //needed to avoid creation of tags and disabling enter key on tag inputs
     }
 
     /**
