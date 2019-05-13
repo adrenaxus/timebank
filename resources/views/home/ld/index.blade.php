@@ -17,7 +17,7 @@
 		<hr>
 		
 		<p><strong>Co devënti pa cumëmber dla Banca dl Tëmp Gherdëina (BTG)?</strong><br>
-		Scrite ite pra una dla sëntes dla dajan ite ciun servijes che te ulësses pité
+		Scrite ite pra una dla sëntes dla Banca dl Tëmp Gherdëina dajan ite ciun servijes che te ulësses pité
 		y ciuni che te ulësses giapé.
 		</p>
 		
@@ -52,7 +52,7 @@
     <div class="container">
      
 		<img style="width: 220px;" class="img-fluid mb-5 d-block mx-auto" src="/freelancer/img/icons/time-passing.png" alt="">
-      <h2 class="text-center text-uppercase">Servijesc che vën pitei</h2>
+      <h2 class="text-center text-uppercase">Servijes che vën pitei</h2>
 	  
 		<!--
 		<div class="taglist">

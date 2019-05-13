@@ -22,11 +22,11 @@ class CreateTagTables extends Migration
 		
         Schema::create('tags', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
+            $table->json('name');
 			$table->string('title_de');
 			$table->string('title_it');
 			$table->string('title_ld');			
-            $table->string('slug')->nullable();
+            $table->json('slug')->nullable();
             $table->string('type')->nullable();
 			$table->string('icon')->nullable();
             $table->integer('order_column')->nullable();

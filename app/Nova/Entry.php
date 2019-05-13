@@ -128,6 +128,8 @@ class Entry extends Resource
 					__('help.ExpiresAt')
 				),				
 			Boolean::make(__('Visible'), function () {
+                if(!$this->expires_at)
+                    return true;
 				return !now()->gt($this->expires_at);
 			}),
 			BelongsTo::make('user', 'user')

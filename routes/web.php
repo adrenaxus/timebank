@@ -25,6 +25,37 @@ Route::get('/ld', function () {
     return view('home.ld.index');
 });
 
+
+Route::get('/categories', function () {
+
+
+    return view('categories');
+
+
+    echo "<table>";
+    
+        echo "<tr>";
+            echo "<th>LD</th>";
+            echo "<th>IT</th>";
+            echo "<th>DE</th>";                
+        echo "</tr>";
+        
+            foreach(App\Tag::all() as $tag)
+            {
+                echo "<tr>";
+                    echo "<td>$tag->title_ld</td>";
+                    echo "<td>$tag->title_it</td>";
+                    echo "<td>$tag->title_de</td>";
+                echo "</tr>";
+            }                
+        
+    
+        
+    echo "</table>";
+
+
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

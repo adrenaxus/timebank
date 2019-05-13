@@ -79,7 +79,7 @@
     "Something went wrong.": "Velch ie jit stort.",
     "The action ran successfully!": "La azion ie stata fata cun suzes!",
     "The government won\\'t let us show you what\\'s behind these doors": "L guviern se lascia nia!!! udei cieche ie do chela portes ite :( ",
-    "This image": "Chesc pultret",
+    "This image": "Chesta foto",
     "Update": "Ajurnea",
     "Update & Continue Editing": "Ajurnea y va inant cun l'elaburazion",
     "View": "mostra",
@@ -384,9 +384,9 @@
 	"transaction_receive" : "Servisc giapà",
 	"transactions_receive" : "Servijes giapei",
 	
-	"Title" : "Titul",
+	"Title" : "Servisc",
 	"Content" : "Descrizion",
-	"Image" : "pultret",
+	"Image" : "foto",
 	"ExpiresAt" : "Data de scadënza",
 	"Icon" : "Icona",
 	"ReceivingUser" : "Chiche a japà l servij",
@@ -411,16 +411,22 @@
 	"ConfirmTransaction" : "Cunfermé",	
 	
 	
-	"help.Type" : "Ulëssesa pitè velch, o chieresa n servisc?",
+	"help.Type" : "Uëssa pité velch, o chieresa n servisc?",
 	"help.Title" : "Na curta descrizion dl servisc.",
 	"help.Tags" : "Chier ora una o de plu paroles tlè che raprejentea l miec l servisc. Te posses te uni mument udëi la lista dla paroles tlè tl menu sota \"Parols tlè\"",
 	"help.Content" : "Na descrizion che spiega plu avisa l servisc.",
-	"help.Image" : "Tlò posses ciarië sù n pultrët per l servisc.",
+	"help.Image" : "Tlò posses ciarië sù na foto per l servisc.",
 	"help.ReceivingUser" : "La persona, che a giapà l servisc.",
 	"help.GivingUser" : "La persona che a dat l servisc.",
 	"help.Minutes" : "Tëmp (te menuc) che ie stat adurvà per l servisc.",
 	"help.When" : "Can ie pa sta fat l servisc?",
-	"help.ExpiresAt" : "Data de scadënza. L servisc scumaprësc dala listes publiches do chësta data."
+	"help.ExpiresAt" : "Data de scadënza. L servisc scumaprësc dala listes publiches do chësta data.",
+    
+	"help.Language" : "Wähle deine bevorzugte Sprache. Änderungen sind ab dem nächsten Einloggen aktiv.",
+	"help.Telephone" : "Die Telefonnummer ist nur für Mitglieder der Zeitbank sichtbar und wird benötigt, um dich zu kontaktieren.",
+	"help.Email" : "Die E-Mail Adresse ist nur für die Mitglieder der Zeitbank sichtbar und wird für Benachrichtigungen benötigt.",
+	"help.FavoriteTags" : "Eine Liste deiner bevorzugten Stichwörter. Du kannst jederzeit im Menü unter Stichwörter die gesamte Liste einsehen.",
+	"help.Password" : "Du kannst hier jederzeit dein Passwort ändern."            
 		
 	
 	
