@@ -16,12 +16,15 @@ Route::get('/', function () {
 });
 
 Route::get('/de', function () {
+    App::setLocale("de");
     return view('home.de.index');
 });
 Route::get('/it', function () {
+    App::setLocale("it");
     return view('home.it.index');
 });
 Route::get('/ld', function () {
+    App::setLocale("ld");
     return view('home.ld.index');
 });
 

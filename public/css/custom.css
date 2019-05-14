@@ -18,3 +18,8 @@ ul.languages li a:hover, ul.languages li a.active{
 	}	
 	
 }
+
+
+img.image{
+    width: 200px;
+}

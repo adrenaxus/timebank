@@ -814,6 +814,58 @@
         ]
     },
     {
+        "name": "gregoriohc/laravel-nova-theme-responsive",
+        "version": "v0.6.1",
+        "version_normalized": "0.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gregoriohc/laravel-nova-theme-responsive.git",
+            "reference": "ab63cf05ee89ef436ecd4134edb16546b1663833"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gregoriohc/laravel-nova-theme-responsive/zipball/ab63cf05ee89ef436ecd4134edb16546b1663833",
+            "reference": "ab63cf05ee89ef436ecd4134edb16546b1663833",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1.0"
+        },
+        "time": "2018-09-28T08:42:07+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Gregoriohc\\LaravelNovaThemeResponsive\\ThemeServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gregoriohc\\LaravelNovaThemeResponsive\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gregorio Hernández Caso",
+                "email": "gregoriohc@gmail.com",
+                "homepage": "https://github.com/gregoriohc",
+                "role": "Developer"
+            }
+        ],
+        "description": "A Laravel Nova responsive theme.",
+        "homepage": "https://github.com/gregoriohc/laravel-nova-theme-responsive",
+        "keywords": [
+            "laravel",
+            "nova"
+        ]
+    },
+    {
         "name": "hamcrest/hamcrest-php",
         "version": "v2.0.0",
         "version_normalized": "2.0.0.0",

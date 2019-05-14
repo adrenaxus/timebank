@@ -14,10 +14,6 @@ class TagsTableSeeder extends Seeder
      */
      
      
-     public function convert(){
-'RowNames',{'row1','row2','row3'} uses the row names, row1, row2, and row3 for the ta        
-     }
-     
     public function run()
     {
         DB::table('tags')->insert([

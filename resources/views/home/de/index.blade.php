@@ -14,6 +14,9 @@
 		Gewinnabsicht, die das Ziel verfolgt, den unentgeltlichen Austausch von
 		Diensten und Tätigkeiten zu unterstützen.
 		</p>
+        
+        
+        <img class="image" src="/files/fotos/AdobeStock_185223220.jpg">
 		
 		<hr>
 		
@@ -24,6 +27,8 @@
 		du anbieten und welche du in
 		Anspruch nehmen möchtest.
 		</p>
+        
+        <img class="image" src="/files/fotos/Kelm_groedenJuli2013-3223.jpg">
 		
 		<hr>
 		
@@ -37,6 +42,8 @@
 		Erbrachte Leistungen werden dir auf deinem Zeitkonto gutgeschrieben, das
 		Konto des Leistungsempfängers wird mit der entsprechenden Zeit belastet.
 		</p>
+        
+        <img class="image" src="/files/fotos/StockSnap_KSVNE2NWQP.jpg">
 		
 		<hr>
 		
@@ -48,6 +55,8 @@
 		Tëmp Gherdëina unfall- und haftpflichtversichert. Es ist ein jährlicher Mitglieds-
 		beitrag von € 10 zu entrichten.
 		</p>
+        
+        <img class="image" src="/files/fotos/StockSnap_OEIJJX36TI.jpg">
 		
 		<hr>
 	  
@@ -117,7 +126,7 @@
 		-->
 		
 	  
-		<table class="table table-striped">
+		<table class="table table-striped table-borderless">
 		  <thead>
 			<tr>
 			  <th scope="col">Bild</th>

@@ -139,13 +139,8 @@
 				  <h4 class="text-uppercase mb-4">Banca del tempo Val Gardena</h4>
 				  <ul class="list-inline mb-0">
 					<li class="list-inline-item">
-					  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+					  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/bancadltemp">
 						<i class="fab fa-fw fa-facebook-f"></i>
-					  </a>
-					</li>
-					<li class="list-inline-item">
-					  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-						<i class="fab fa-fw fa-instagram"></i>
 					  </a>
 					</li>
 				  </ul>

@@ -13,6 +13,8 @@
 		La Banca dl Tëmp Gherdëina ie na istituzion soziela, na lia zënza fin de davani,
 		che juda a giamië servijes y ativiteies danter persones, zënza paiamënt.
 		</p>
+        
+        <img class="image" src="/files/fotos/AdobeStock_185223220.jpg">
 		
 		<hr>
 		
@@ -20,6 +22,8 @@
 		Scrite ite pra una dla sëntes dla Banca dl Tëmp Gherdëina dajan ite ciun servijes che te ulësses pité
 		y ciuni che te ulësses giapé.
 		</p>
+        
+        <img class="image" src="/files/fotos/Kelm_groedenJuli2013-3223.jpg">
 		
 		<hr>
 		
@@ -29,6 +33,8 @@
 		Ala medema maniera posses nce tu te damandé servijes da d’autri cumëmbri.
 		L’ëures fates vën scrites sun ti cont y trates ju a chiche giapa l servisc.
 		</p>
+        
+        <img class="image" src="/files/fotos/StockSnap_KSVNE2NWQP.jpg">
 		
 		<hr>
 		
@@ -40,6 +46,8 @@
 		da na assegurazion de respunsabltà zevila y contra desgrazies.
 		L ie da paië ite n cuntribut de € 10 al ann.	  
 		</p>
+        
+        <img class="image" src="/files/fotos/StockSnap_OEIJJX36TI.jpg">
 		
 		<hr>
 	  
@@ -67,8 +75,8 @@
 		<table class="table table-striped table-borderless" style="margin-bottom: 50px;">
 		  <thead>
 			<tr>
-			  <th scope="col">Pultrët</th>
-			  <th scope="col">Titul</th>
+			  <th scope="col">Foto</th>
+			  <th scope="col">Servisc</th>
 			  <th scope="col">Descrizion</th>
 			</tr>
 		  </thead>
@@ -109,11 +117,11 @@
 		-->
 		
 	  
-		<table class="table table-striped">
+		<table class="table table-striped table-borderless">
 		  <thead>
 			<tr>
-			  <th scope="col">Pultrët</th>
-			  <th scope="col">Titul</th>
+			  <th scope="col">Foto</th>
+			  <th scope="col">Servisc</th>
 			  <th scope="col">Descrizion</th>
 			</tr>
 		  </thead>

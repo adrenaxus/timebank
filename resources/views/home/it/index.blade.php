@@ -14,6 +14,8 @@
 		scopo di lucro, che favorisce lo scambio di servizi e attività tra persone senza
 		trasferimento di denaro.
 		</p>
+        
+        <img class="image" src="/files/fotos/AdobeStock_185223220.jpg">
 		
 		<hr>
 		
@@ -21,6 +23,8 @@
 		Registrati presso uno degli sportelli della Banca dl Tëmp Gherdëina
 		indicando le attività che desideri offrire e quelli che ti piacerebbe ricevere
 		</p>
+        
+        <img class="image" src="/files/fotos/Kelm_groedenJuli2013-3223.jpg">
 		
 		<hr>
 		
@@ -31,6 +35,8 @@
 		Le attività da te fornite saranno accreditate sul tuo conto orario e le ore
 		corrispondenti al servizio prestato saranno addebitate sul conto del beneficiario.
 		</p>
+        
+        <img class="image" src="/files/fotos/StockSnap_KSVNE2NWQP.jpg">
 		
 		<hr>
 		
@@ -43,6 +49,8 @@
 		È richiesto il versamento di una quota
 		associativa annuale di € 10.
 		</p>
+        
+        <img class="image" src="/files/fotos/StockSnap_OEIJJX36TI.jpg">
 		
 		<hr>
 	  
@@ -67,7 +75,7 @@
 		</div>
 		-->
 	  
-		<table class="table table-striped" style="margin-bottom: 50px;">
+		<table class="table table-striped table-borderless" style="margin-bottom: 50px;">
 		  <thead>
 			<tr>
 			  <th scope="col">Immagine</th>
@@ -112,7 +120,7 @@
 		-->
 		
 	  
-		<table class="table table-striped">
+		<table class="table table-striped table-borderless">
 		  <thead>
 			<tr>
 			  <th scope="col">Bild</th>

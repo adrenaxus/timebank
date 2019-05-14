@@ -111,6 +111,10 @@ class ComposerStaticInitb971de3441350db902e0434215fa0d74
         array (
             'Illuminate\\' => 11,
         ),
+        'G' => 
+        array (
+            'Gregoriohc\\LaravelNovaThemeResponsive\\' => 38,
+        ),
         'F' => 
         array (
             'Fideloper\\Proxy\\' => 16,
@@ -334,6 +338,10 @@ class ComposerStaticInitb971de3441350db902e0434215fa0d74
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'Gregoriohc\\LaravelNovaThemeResponsive\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gregoriohc/laravel-nova-theme-responsive/src',
         ),
         'Fideloper\\Proxy\\' => 
         array (
@@ -1107,6 +1115,7 @@ class ComposerStaticInitb971de3441350db902e0434215fa0d74
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/ValidGenerator.php',
         'Fideloper\\Proxy\\TrustProxies' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustProxies.php',
         'Fideloper\\Proxy\\TrustedProxyServiceProvider' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustedProxyServiceProvider.php',
+        'Gregoriohc\\LaravelNovaThemeResponsive\\ThemeServiceProvider' => __DIR__ . '/..' . '/gregoriohc/laravel-nova-theme-responsive/src/ThemeServiceProvider.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
