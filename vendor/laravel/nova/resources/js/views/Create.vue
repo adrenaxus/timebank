@@ -1,6 +1,6 @@
 <template>
     <loading-view :loading="loading">
-        <heading class="mb-3">{{ __('New') }} {{ singularName }}</heading>
+        <heading class="mb-3">{{ __('New :resource', { resource: singularName }) }}</heading>
 
         <card class="overflow-hidden">
             <form v-if="fields" @submit.prevent="createResource" autocomplete="off">
@@ -21,9 +21,16 @@
                 </div>
 
                 <!-- Create Button -->
-                <div class="bg-30 flex px-8 py-4">
+                <div class="bg-30 flex items-center px-8 py-4">
+                    <a
+                        @click="$router.back()"
+                        class="btn btn-link dim cursor-pointer text-80 ml-auto mr-6"
+                    >
+                        {{ __('Cancel') }}
+                    </a>
+
                     <progress-button
-                        class="ml-auto mr-3"
+                        class="mr-3"
                         dusk="create-and-add-another-button"
                         @click.native="createAndAddAnother"
                         :disabled="isWorking"
@@ -38,7 +45,7 @@
                         :disabled="isWorking"
                         :processing="submittedViaCreateResource"
                     >
-                        {{ __('Create') }} {{ singularName }}
+                        {{ __('Create :resource', { resource: singularName }) }}
                     </progress-button>
                 </div>
             </form>
@@ -123,7 +130,9 @@ export default {
             this.submittedViaCreateResource = true
 
             try {
-                const response = await this.createRequest()
+                const {
+                    data: { redirect },
+                } = await this.createRequest()
 
                 this.submittedViaCreateResource = false
 
@@ -134,13 +143,7 @@ export default {
                     { type: 'success' }
                 )
 
-                this.$router.push({
-                    name: 'detail',
-                    params: {
-                        resourceName: this.resourceName,
-                        resourceId: response.data.id,
-                    },
-                })
+                this.$router.push({ path: redirect })
             } catch (error) {
                 this.submittedViaCreateResource = false
 

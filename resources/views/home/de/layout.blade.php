@@ -98,7 +98,7 @@
 					San Durich Bibliothek<br>
 					S. Durich Platz, 9<br>
 					Telefon: 0471 797 814<br>
-					jeden Mitwoch, von 16.00 Uhr bis 19.00 Uhr
+					jeden Mitwoch, von 16.00 Uhr bis 18.00 Uhr
 				  </p>
 				</div>
 				<div class="col-lg-4 mr-auto">

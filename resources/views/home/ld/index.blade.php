@@ -104,7 +104,7 @@
      
 
 		<img style="width: 220px;" class="img-fluid mb-5 d-block mx-auto" src="/freelancer/img/icons/rewind-time.png" alt="">
-		<h2 class="text-center text-uppercase">Servijesc che vën damandei</h2>
+		<h2 class="text-center text-uppercase">Servijes che vën damandei</h2>
 		
 		<!--
 		<div class="taglist">

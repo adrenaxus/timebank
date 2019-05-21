@@ -222,6 +222,7 @@ export default {
          */
         handleKeydown(e) {
             if (
+                this.resource.authorizedToUpdate &&
                 !e.ctrlKey &&
                 !e.altKey &&
                 !e.metaKey &&

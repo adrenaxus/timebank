@@ -1,6 +1,8 @@
 <template>
     <loading-view :loading="loading">
-        <heading class="mb-3">{{ __('Attach') }} {{ relatedResourceLabel }}</heading>
+        <heading class="mb-3">{{
+            __('Attach :resource', { resource: relatedResourceLabel })
+        }}</heading>
 
         <card class="overflow-hidden">
             <form v-if="field" @submit.prevent="attachResource" autocomplete="off">
@@ -54,9 +56,9 @@
                             :label="'display'"
                             :selected="selectedResourceId"
                         >
-                            <option value="" disabled selected
-                                >{{ __('Choose') }} {{ relatedResourceLabel }}</option
-                            >
+                            <option value="" disabled selected>{{
+                                __('Choose :resource', { resource: relatedResourceLabel })
+                            }}</option>
                         </select-control>
 
                         <!-- Trashed State -->
@@ -87,8 +89,15 @@
 
                 <!-- Attach Button -->
                 <div class="bg-30 flex px-8 py-4">
+                    <a
+                        @click="$router.back()"
+                        class="btn btn-default btn-link dim cursor-pointer text-80 ml-auto mr-6"
+                    >
+                        {{ __('Cancel') }}
+                    </a>
+
                     <progress-button
-                        class="ml-auto mr-3"
+                        class="mr-3"
                         dusk="attach-and-attach-another-button"
                         @click.native="attachAndAttachAnother"
                         :disabled="isWorking"
@@ -103,7 +112,7 @@
                         :disabled="isWorking"
                         :processing="submittedViaAttachResource"
                     >
-                        {{ __('Attach') }} {{ relatedResourceLabel }}
+                        {{ __('Attach :resource', { resource: relatedResourceLabel }) }}
                     </progress-button>
                 </div>
             </form>
