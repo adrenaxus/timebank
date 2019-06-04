@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return redirect('/it');
+    return redirect('/ld');
 });
 
 Route::get('/de', function () {

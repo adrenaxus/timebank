@@ -137,6 +137,8 @@ class User extends Resource
 					__('help.Password')
 				),								
 				
+            //remove role from user edit page to avoid confusion when admins submit new user
+            /*
 			Select::make(__('Role'), 'role')
 				->options([
 					'admin' => 'Admin',
@@ -145,7 +147,8 @@ class User extends Resource
 				->canSee(function ($request) {
 					return $request->user()->role == 'admin';
 				})		
-				->sortable()				
+				->sortable()
+            */				
         ];
     }
 
