@@ -25,12 +25,13 @@
 		<link href="css/app.css" rel="stylesheet">
 		<link href="css/custom.css" rel="stylesheet">
     </head>
+    
     <body id="page-top">
 	
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="http://68.183.71.90"><img src="files/logo_small.png" width="110" height="110" class="d-inline-block align-top" alt=""></a>
+			<a class="navbar-brand js-scroll-trigger" href="https://www.bancadltemp.com"><img src="files/logo_small.png" width="110" height="110" class="d-inline-block align-top" alt=""></a>
 		  <button class="navbar-toggler navbar-toggler-right text-uppercase bg-success text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			Menu
 			<i class="fas fa-bars"></i>
@@ -45,7 +46,7 @@
 					{{  App\Entry::where('type', 'offer')->get()->count() }}
 				</span></a>
 			  </li>
-			  <li class="nav-item mx-0 mx-lg-1">
+			  <li class="nav-item mx-0 mx-lg-l">
 				<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#servijes-2">vën damandà <span class="badge bade-pill badge-success">
 					{{  App\Entry::where('type', 'request')->get()->count() }}
 				</span></a>
@@ -77,7 +78,7 @@
 		</nav>
 		
 		
-		 @yield('content')
+		@yield('content')
 		
 		
 		  <!-- About Section -->
@@ -158,7 +159,7 @@
 		  </div>
 
 		  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-		  <div class="scroll-to-top d-lg-none position-fixed ">
+		  <div class="scroll-to-top d-lg-none position-fixed">
 			<a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
 			  <i class="fa fa-chevron-up"></i>
 			</a>

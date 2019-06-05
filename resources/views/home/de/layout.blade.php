@@ -30,7 +30,7 @@
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="http://68.183.71.90"><img src="files/logo_small.png" width="110" height="110" class="d-inline-block align-top" alt=""></a>
+			<a class="navbar-brand js-scroll-trigger" href="https://www.bancadltemp.com"><img src="files/logo_small.png" width="110" height="110" class="d-inline-block align-top" alt=""></a>
 		  <button class="navbar-toggler navbar-toggler-right text-uppercase bg-success text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			Menu
 			<i class="fas fa-bars"></i>
