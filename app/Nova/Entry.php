@@ -70,9 +70,14 @@ class Entry extends Resource
 	{
 		return __('Entry');
 	}
+    
+    
+    public static function indexQuery(NovaRequest $request, $query)
+    {
+    }    
 
 	
-	//relations shown in dropdown menus
+	//relations shown in dropdown menu
 	public static function relatableQuery(NovaRequest $request, $query)
 	{
 		return $query->where('user_id', $request->user()->id);
@@ -110,7 +115,6 @@ class Entry extends Resource
 			Tags::make(__('Tags') . "*", 'Tags')
 				->limitSuggestions(50)
 				->rules('required')
-				->sortable()
 				->help(
 					__('help.Tags')
 				),				
